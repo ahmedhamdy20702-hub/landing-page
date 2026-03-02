@@ -211,40 +211,40 @@ img {
     max-width: 100%;
 }
 
-.Section-heading {
+.section-heading {
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
 @media (max-width:991px) {
-    .Section-heading {
+    .section-heading {
         padding-top: 10px;
         padding-bottom: 10px;
     }
 }
 
-.Section-heading .info {
+.section-heading .info {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 30px;
 }
 
-.Section-heading .text {
+.section-heading .text {
     margin: 20px 0;
     font-weight: 600;
 }
 
-.Section-heading img {
+.section-heading img {
     max-width: 100%;
 }
 
-.Section-heading .box h2 {
+.section-heading .box h2 {
     font-weight: 500;
     font-size: 18px;
     margin: 20px 0 5px;
 }
 
-.Section-heading .box p {
+.section-heading .box p {
     color: #828282;
     width: 300px;
 }
@@ -292,9 +292,13 @@ img {
 
 .gallery .container .box {
     padding: 10px 0;
-    flex: 1;
 }
 
+.gallery .container  .info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 @media (max-width:991px) {
     .gallery .container .box {
         padding: 5px 0;
@@ -302,7 +306,6 @@ img {
         text-align: center;
     }
 }
-
 .gallery .container .box h2 {
     font-size: 18px;
     font-weight: 500;
@@ -320,7 +323,7 @@ img {
 .gallery .container .box p {
     color: #828282;
     font-size: 15px;
-    width: 400px;
+    width: 500px;
 }
 
 @media (max-width:991px) {
@@ -404,46 +407,46 @@ img {
     }
 }
 
-.Opinions {
+.opinions {
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.Opinions .text {
+.opinions .text {
     margin: 20px 0;
     font-weight: 600;
 }
 
-.Opinions .container .info {
+.opinions .container .info {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 40px;
 }
 
-.Opinions .container .box {
+.opinions .container .box {
     border: 2px solid #f6f5f5;
     border-radius: 10px;
     padding: 20px;
 }
 
-.Opinions .container .box q {
+.opinions .container .box q {
     font-size: 24px;
     margin: 0 0 30px;
     display: block;
 }
 
-.Opinions .container .box .card {
+.opinions .container .box .card {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.Opinions .container .box .font {
+.opinions .container .box .font {
     display: flex;
     flex-direction: column;
 }
 
-.Opinions .container .box .des {
+.opinions .container .box .des {
     color: #828282;
 }
 
@@ -486,6 +489,7 @@ img {
     width: fit-content;
     transition: .3s;
     margin-right: 15px;
+    font-size: 14px;
 }
 
 .subuscribe .container .input a.button:hover {
@@ -506,6 +510,7 @@ img {
     margin: 20px 0;
     width: fit-content;
     font-weight: 500;
+    font-size: 14px;
 }
 
 .foot {
